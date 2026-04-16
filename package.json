@@ -1,0 +1,11 @@
+{
+  "name": "custom-tabs-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass assets/scss/custom-tabs.scss assets/css/custom-tabs.css --no-source-map",
+    "watch": "sass --watch assets/scss/custom-tabs.scss:assets/css/custom-tabs.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
