@@ -1,5 +1,13 @@
+.ctp-tabs-wrap,
+.ctp-tabs-wrap * {
+  font-family: "proxima-nova", sans-serif;
+}
+
 .ctp-tabs-wrap {
-  background: #000;
+  width: 100%;
+  max-width: none !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
   padding: 48px 24px 56px;
 }
 
@@ -214,7 +222,6 @@
 }
 
 .ctp-trusted__logo {
-  color: #fff;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.1;
