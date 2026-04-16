@@ -1,0 +1,15 @@
+.ctp-panel {
+  display: none;
+  padding: 20px;
+  background: #222;
+  border: 1px solid #555;
+}
+
+.ctp-panel.is-active {
+  display: block;
+}
+
+.ctp-tab.is-active {
+  color: #6f63ff;
+  border-bottom-color: #6f63ff;
+}

@@ -1,0 +1,36 @@
+.ctp-tabs {
+  background: #000;
+  color: #fff;
+  padding: 40px;
+}
+
+.ctp-tabs__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.ctp-tab {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 0 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.ctp-tab.is-active {
+  color: #6f63ff;
+  border-bottom-color: #6f63ff;
+}
+
+.ctp-panel {
+  display: none;
+}
+
+.ctp-panel.is-active {
+  display: block;
+}
